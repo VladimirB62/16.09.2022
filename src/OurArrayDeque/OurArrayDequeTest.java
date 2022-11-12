@@ -46,15 +46,4 @@ public class OurArrayDequeTest {
         }
     }
 
-    @Test
-    public void beforeElementTest() {
-        ourArrayDeque.addLast(5);
-        ourArrayDeque.addLast(7);
-        ourArrayDeque.addLast(9);
-        ourArrayDeque.addLast(11);
-        while (ourArrayDeque.hasBefore()){
-            System.out.println(ourArrayDeque.before());
-        }
-
-    }
 }
