@@ -4,11 +4,12 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class OurArrayDequeIteratorTest {
+class OurArrayDequeIteratorTest  {
 
 
     @Test
@@ -54,7 +55,5 @@ class OurArrayDequeIteratorTest {
         assertEquals(expected,actual);
 
     }
-
-
 
 }
